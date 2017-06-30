@@ -174,14 +174,14 @@ section div.panel img.cheestype {
 /*Footer*/
 footer{
 	background-color: orange;
-	height:25px;
+	height:50px;
 	font-size: 1.2em;
 	color: #fff
 	width:100%;
 	text-align: center;
 	padding: 1.5em 2.0em;
 }
-footer ul#menufooter {
+#menufooter {
 	display: inline-block;
 	list-style: none;
 	margin: 0 0 0 0.6em;
@@ -208,4 +208,8 @@ footer a:hover {
 div.clear {
 	clear:both;
 	font-size: 1%;
+}
+.panel img {
+    width: 75%;
+    height: auto;
 }
